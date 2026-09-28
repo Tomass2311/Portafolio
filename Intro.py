@@ -29,9 +29,13 @@ with st.sidebar:
         "descripción de cada uno."
     )
 
-url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
-st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
-st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
+st.subheader("Actividades realizadas en clase")
+
+st.write(
+    "En este portafolio se presentan las diferentes actividades y "
+    "ejercicios desarrollados durante las sesiones de clase, junto "
+    "con una breve descripción y el enlace a cada aplicación."
+)
 
 col1, col2, col3 = st.columns(3)
 
