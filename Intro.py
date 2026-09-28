@@ -32,9 +32,11 @@ with st.sidebar:
 url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
 st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
 st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
+
 col1, col2, col3 = st.columns(3)
 
 with col1:
+    
     st.subheader("Sesión 2: Vectores y matrices")
     image = Image.open("sesion2.png")
     st.image(image, width=200)
@@ -45,21 +47,28 @@ with col1:
         "y se calculó la distancia entre sus características.")
     url = "https://clase2fruta.streamlit.app/"
     st.write(f"Aplicación: [Ver actividad]({url})")
+    
+    st.subheader("Sesión 3: Cálculo aplicado, gradiente")
+    image = Image.open("sesion3.png")
+    st.image(image, width=200)
+    st.write(
+        "Actividad sobre derivadas, gradiente y descenso de gradiente. "
+        "Se modificó la función objetivo de la aplicación y su "
+        "gradiente para observar cómo estos conceptos permiten "
+        "encontrar mínimos mediante un proceso de optimización.")
+    url = "https://clase3tsul.streamlit.app/"
+    st.write(f"Aplicación: [Ver actividad]({url})")
 
-
- st.subheader("Reconocimiento de Objetos")
- image = Image.open('txt_to_audio.png')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://yolov5cmc.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
-
- st.subheader("Entrenando Modelos")
- image = Image.open('OIG5.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+    st.subheader("Sesión 4: Lógica, Big-O y vectorización")
+    image = Image.open("sesion4.png")
+    st.image(image, width=200)
+    st.write(
+        "Actividad enfocada en la relación entre la lógica de "
+        "programación, la complejidad algorítmica y la vectorización. "
+        "Se resolvió un ejercicio práctico y se incorporaron los "
+        "resultados junto con el enlace de la aplicación.")
+    url = "https://clase4tsul.streamlit.app/"
+    st.write(f"Aplicación: [Ver actividad]({url})")
 
 with col2: 
  st.subheader("Conversión de voz a texto")
