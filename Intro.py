@@ -1,15 +1,33 @@
 import streamlit as st
 from PIL import Image
-st.title("Aplicaciones de Inteligencia Artificial.")
+st.title("Portafolio de Actividades en Clase.")
 
 with st.sidebar:
-  st.subheader("Aplicaciones con Inteligencia Artificial.")
-  parrafo = (
-    "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
-    "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
-    "resulta en una mayor eficiencia y precisión en diversos campos."
-  )
-  st.write(parrafo)
+    st.subheader("Portafolio de Actividades")
+
+    st.write(
+        "En este portafolio se presentan las diferentes actividades y "
+        "proyectos realizados durante las clases."
+    )
+
+    st.markdown("---")
+
+    st.write("### Información personal")
+
+    st.write("**Nombre:** Tomás Stiven Urrego Llanos")
+    st.write("**Programa:** Ingeniería de Software")
+    st.write("**Semestre:** 5.º")
+    st.write("**Institución:** I.U. Pascual Bravo")
+
+    st.markdown("---")
+
+    st.write("### Objetivo")
+
+    st.write(
+        "Mostrar de manera organizada las actividades, ejercicios y "
+        "proyectos desarrollados durante el curso, junto con una breve "
+        "descripción de cada uno."
+    )
 
 url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
 st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
