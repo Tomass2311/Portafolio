@@ -44,10 +44,10 @@ with col1:
     image = Image.open("txt_to_audio2.png")
     st.image(image, width=190)
     st.write(
-        "Actividad enfocada en el uso de vectores y matrices mediante "
-        "una aplicación en Streamlit. Se agregó una nueva fruta "
-        "definiendo características como peso, diámetro y dulzor, "
-        "y se calculó la distancia entre sus características." )
+        "Actividad sobre vectores y matrices en Streamlit. "
+        "Se agregó una nueva fruta con características de peso, "
+        "diámetro y dulzor, y se calculó la distancia entre frutas."
+    )
     url = "https://clase2fruta.streamlit.app/"
     st.write(f"Aplicación: [Ver actividad]({url})")
 
@@ -57,9 +57,9 @@ with col2:
     st.image(image, width=190)
     st.write(
         "Actividad sobre derivadas, gradiente y descenso de gradiente. "
-        "Se modificó la función objetivo de la aplicación y su "
-        "gradiente para observar cómo estos conceptos permiten "
-        "encontrar mínimos mediante un proceso de optimización." )
+        "Se modificó la función objetivo y su gradiente para realizar "
+        "un proceso de optimización."
+    )
     url = "https://clase3tsul.streamlit.app/"
     st.write(f"Aplicación: [Ver actividad]({url})")
 
@@ -68,10 +68,10 @@ with col3:
     image = Image.open("OIG5.jpg")
     st.image(image, width=190)
     st.write(
-        "Actividad enfocada en la relación entre la lógica de "
-        "programación, la complejidad algorítmica y la vectorización. "
-        "Se resolvió un ejercicio práctico y se incorporaron los "
-        "resultados junto con el enlace de la aplicación." )
+        "Actividad sobre lógica, complejidad algorítmica y vectorización. "
+        "Se resolvió un ejercicio práctico relacionado con la eficiencia "
+        "de los procesos computacionales."
+    )
     url = "https://clase4tsul.streamlit.app/"
     st.write(f"Aplicación: [Ver actividad]({url})")
 
@@ -82,10 +82,10 @@ with col1:
     image = Image.open("data_analisis.png")
     st.image(image, width=190)
     st.write(
-        "Actividad práctica sobre preparación y análisis de datos. "
-        "Se trabajaron conceptos como tipos de datos, valores "
-        "faltantes, outliers, normalización, estandarización, "
-        "división de datos, covarianza y correlación." )
+        "Actividad sobre preparación y análisis de datos. "
+        "Se trabajaron tipos de datos, outliers, normalización, "
+        "estandarización, división de datos y correlación."
+    )
     url = "https://clase5tsul.streamlit.app/"
     st.write(f"Aplicación: [Ver actividad]({url})")
 
@@ -94,11 +94,10 @@ with col2:
     image = Image.open("OIG3.jpg")
     st.image(image, width=190)
     st.write(
-        "Actividad realizada con datos ambientales reales obtenidos "
-        "mediante APIs de la plataforma MARCO de Cornare. Se "
-        "exploraron y prepararon los datos de una estación de "
-        "monitoreo y se modificó la aplicación para trabajar con "
-        "una estación seleccionada." )
+        "Actividad con datos ambientales reales de MARCO de Cornare. "
+        "Se consultaron datos de una estación y se modificó la aplicación "
+        "para trabajar con información propia."
+    )
     url = "https://clase6tsur.streamlit.app/"
     st.write(f"Aplicación: [Ver actividad]({url})")
 
@@ -107,10 +106,10 @@ with col3:
     image = Image.open("Chat_pdf.png")
     st.image(image, width=190)
     st.write(
-        "Actividad sobre regresión lineal simple y múltiple, enfocada "
-        "en la predicción de valores numéricos. Se trabajaron "
-        "conceptos como función de costo, gradiente, descenso de "
-        "gradiente y métricas de evaluación como R², MAE y RMSE." )
+        "Actividad sobre regresión lineal simple y múltiple para realizar "
+        "predicciones numéricas, trabajando gradiente, descenso de gradiente "
+        "y métricas de evaluación."
+    )
     url = "https://clase7tsul.streamlit.app/"
     st.write(f"Aplicación: [Ver actividad]({url})")
 
@@ -121,10 +120,10 @@ with col1:
     image = Image.open("OIG6.jpg")
     st.image(image, width=190)
     st.write(
-        "Actividad sobre el análisis y pronóstico de series de tiempo. "
-        "Se exploraron conceptos como tendencia, estacionalidad y "
-        "ruido, además de modelos como ARIMA y Suavizado Exponencial "
-        "para la predicción de la calidad del aire." )
+        "Actividad sobre análisis y pronóstico de series de tiempo. "
+        "Se exploraron tendencia, estacionalidad y modelos como "
+        "ARIMA y Suavizado Exponencial."
+    )
     url = "https://clase8tsul.streamlit.app/"
     st.write(f"Aplicación: [Ver actividad]({url})")
 
@@ -133,10 +132,10 @@ with col2:
     image = Image.open("OIG4.jpg")
     st.image(image, width=190)
     st.write(
-        "Actividad enfocada en la predicción de contaminantes del "
-        "aire mediante series de tiempo. Se trabajaron modelos como "
-        "ARIMA, SARIMA y Holt-Winters, además del uso de ventanas "
-        "deslizantes para generar predicciones." )
+        "Actividad sobre predicción de contaminantes del aire mediante "
+        "series de tiempo. Se trabajaron modelos ARIMA, SARIMA, "
+        "Holt-Winters y ventanas deslizantes."
+    )
     url = "https://clase9tsul.streamlit.app/"
     st.write(f"Aplicación: [Ver actividad]({url})")
 
@@ -145,9 +144,10 @@ with col3:
     image = Image.open("OIG6.jpg")
     st.image(image, width=190)
     st.write(
-        "Actividad sobre sistemas de Internet de las Cosas (IoT), "
-        "enfocada en la captura y procesamiento de datos obtenidos "
-        "mediante tecnologías de IoT." )
+        "Actividad sobre Internet de las Cosas (IoT), enfocada en "
+        "la captura y procesamiento de datos obtenidos mediante "
+        "tecnologías de IoT."
+    )
     url = "https://clase10tsul.streamlit.app/"
     st.write(f"Aplicación: [Ver actividad]({url})")
 
@@ -158,9 +158,10 @@ with col1:
     image = Image.open("OIG8.jpg")
     st.image(image, width=190)
     st.write(
-        "Actividad enfocada en el paso de la regresión lineal a la "
-        "regresión logística, comprendiendo cómo pasar de predecir "
-        "un valor numérico a realizar una clasificación por clases." )
+        "Actividad sobre regresión logística y clasificación. "
+        "Se exploró el paso de predecir valores numéricos a "
+        "clasificar datos en diferentes clases."
+    )
     url = "https://clase11tsul.streamlit.app/"
     st.write(f"Aplicación: [Ver actividad]({url})")
 
@@ -169,10 +170,9 @@ with col2:
     image = Image.open("OIG4.jpg")
     st.image(image, width=190)
     st.write(
-        "Actividad sobre el algoritmo K vecinos más cercanos (KNN), "
-        "un método utilizado para clasificación y regresión. Se "
-        "exploró su aplicación para trabajar con fronteras no "
-        "lineales y problemas basados en similitud." )
+        "Actividad sobre el algoritmo K vecinos más cercanos (KNN). "
+        "Se exploró su uso para clasificación y regresión mediante "
+        "la similitud entre los datos."
+    )
     url = "https://appknntsul.streamlit.app/"
     st.write(f"Aplicación: [Ver actividad]({url})")
-
