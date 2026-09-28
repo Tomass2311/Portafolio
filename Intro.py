@@ -36,7 +36,6 @@ st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    
     st.subheader("Sesión 2: Vectores y matrices")
     image = Image.open("txt_to_audio2.png")
     st.image(image, width=190)
@@ -47,7 +46,8 @@ with col1:
         "y se calculó la distancia entre sus características." )
     url = "https://clase2fruta.streamlit.app/"
     st.write(f"Aplicación: [Ver actividad]({url})")
-    
+
+with col2:
     st.subheader("Sesión 3: Cálculo aplicado, gradiente")
     image = Image.open("txt_to_audio.png")
     st.image(image, width=190)
@@ -59,6 +59,7 @@ with col1:
     url = "https://clase3tsul.streamlit.app/"
     st.write(f"Aplicación: [Ver actividad]({url})")
 
+with col3:
     st.subheader("Sesión 4: Lógica, Big-O y vectorización")
     image = Image.open("OIG5.jpg")
     st.image(image, width=190)
@@ -70,49 +71,104 @@ with col1:
     url = "https://clase4tsul.streamlit.app/"
     st.write(f"Aplicación: [Ver actividad]({url})")
 
-with col2: 
- st.subheader("Conversión de voz a texto")
- image = Image.open('OIG8.jpg')
- st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductorw.streamlit.app/"
- st.write(f"Voz a texto: [Enlace]({url})")
+col1, col2, col3 = st.columns(3)
 
- st.subheader("Análisis de Datos")
- image = Image.open('data_analisis.png')
- st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
- url = "https://dataagente.streamlit.app/"
- st.write(f"Datos: [Enlace]({url})")
+with col1:
+    st.subheader("Sesión 5: Preparación de datos")
+    image = Image.open("data_analisis.png")
+    st.image(image, width=190)
+    st.write(
+        "Actividad práctica sobre preparación y análisis de datos. "
+        "Se trabajaron conceptos como tipos de datos, valores "
+        "faltantes, outliers, normalización, estandarización, "
+        "división de datos, covarianza y correlación." )
+    url = "https://clase5tsul.streamlit.app/"
+    st.write(f"Aplicación: [Ver actividad]({url})")
 
- st.subheader("Trasnscriptor Audio y Video")
- image = Image.open('OIG3.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
- url = "https://transcript-whisper.streamlit.app/"
- st.write(f"Transcriptor: [Enlace]({url})")
+with col2:
+    st.subheader("Sesión 6: Aplicación preparación de datos")
+    image = Image.open("OIG3.jpg")
+    st.image(image, width=190)
+    st.write(
+        "Actividad realizada con datos ambientales reales obtenidos "
+        "mediante APIs de la plataforma MARCO de Cornare. Se "
+        "exploraron y prepararon los datos de una estación de "
+        "monitoreo y se modificó la aplicación para trabajar con "
+        "una estación seleccionada." )
+    url = "https://clase6tsur.streamlit.app/"
+    st.write(f"Aplicación: [Ver actividad]({url})")
 
+with col3:
+    st.subheader("Sesión 7: Regresión lineal")
+    image = Image.open("Chat_pdf.png")
+    st.image(image, width=190)
+    st.write(
+        "Actividad sobre regresión lineal simple y múltiple, enfocada "
+        "en la predicción de valores numéricos. Se trabajaron "
+        "conceptos como función de costo, gradiente, descenso de "
+        "gradiente y métricas de evaluación como R², MAE y RMSE." )
+    url = "https://clase7tsul.streamlit.app/"
+    st.write(f"Aplicación: [Ver actividad]({url})")
 
-with col3: 
- st.subheader("Generación en Contexto")
- image = Image.open('Chat_pdf.png')
- st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
- st.write(f"RAG: [Enlace]({url})")
+col1, col2, col3 = st.columns(3)
 
- st.subheader("Análisis de Imagen")
- image = Image.open('OIG4.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
- 
- st.subheader("Sistema Ciberfísico")
- image = Image.open('OIG6.jpg')
- st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+with col1:
+    st.subheader("Sesión 8: Series de tiempo")
+    image = Image.open("OIG6.jpg")
+    st.image(image, width=190)
+    st.write(
+        "Actividad sobre el análisis y pronóstico de series de tiempo. "
+        "Se exploraron conceptos como tendencia, estacionalidad y "
+        "ruido, además de modelos como ARIMA y Suavizado Exponencial "
+        "para la predicción de la calidad del aire." )
+    url = "https://clase8tsul.streamlit.app/"
+    st.write(f"Aplicación: [Ver actividad]({url})")
 
+with col2:
+    st.subheader("Sesión 9: Predicción de calidad del aire")
+    image = Image.open("OIG4.jpg")
+    st.image(image, width=190)
+    st.write(
+        "Actividad enfocada en la predicción de contaminantes del "
+        "aire mediante series de tiempo. Se trabajaron modelos como "
+        "ARIMA, SARIMA y Holt-Winters, además del uso de ventanas "
+        "deslizantes para generar predicciones." )
+    url = "https://clase9tsul.streamlit.app/"
+    st.write(f"Aplicación: [Ver actividad]({url})")
+
+with col3:
+    st.subheader("Sesión 10: Sistema de IoT")
+    image = Image.open("OIG6.jpg")
+    st.image(image, width=190)
+    st.write(
+        "Actividad sobre sistemas de Internet de las Cosas (IoT), "
+        "enfocada en la captura y procesamiento de datos obtenidos "
+        "mediante tecnologías de IoT." )
+    url = "https://clase10tsul.streamlit.app/"
+    st.write(f"Aplicación: [Ver actividad]({url})")
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.subheader("Sesión 11: De la regresión lineal a la logística")
+    image = Image.open("OIG8.jpg")
+    st.image(image, width=190)
+    st.write(
+        "Actividad enfocada en el paso de la regresión lineal a la "
+        "regresión logística, comprendiendo cómo pasar de predecir "
+        "un valor numérico a realizar una clasificación por clases." )
+    url = "https://clase11tsul.streamlit.app/"
+    st.write(f"Aplicación: [Ver actividad]({url})")
+
+with col2:
+    st.subheader("Sesión 12: Clasificación KNN")
+    image = Image.open("OIG4.jpg")
+    st.image(image, width=190)
+    st.write(
+        "Actividad sobre el algoritmo K vecinos más cercanos (KNN), "
+        "un método utilizado para clasificación y regresión. Se "
+        "exploró su aplicación para trabajar con fronteras no "
+        "lineales y problemas basados en similitud." )
+    url = "https://appknntsul.streamlit.app/"
+    st.write(f"Aplicación: [Ver actividad]({url})")
 
