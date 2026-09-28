@@ -16,7 +16,7 @@ with st.sidebar:
 
     st.write("**Nombre:** Tomás Stiven Urrego Llanos")
     st.write("**Programa:** Ingeniería de Software")
-    st.write("**Semestre:** 5.º")
+    st.write("**Materia:** Programacion Avanzada")
     st.write("**Institución:** I.U. Pascual Bravo")
 
     st.markdown("---")
