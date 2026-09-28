@@ -35,13 +35,17 @@ st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
 col1, col2, col3 = st.columns(3)
 
 with col1:
- 
- st.subheader("Conversión de texto a voz")
- image = Image.open('txt_to_audio2.png')
- st.image(image, width=190)
- st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
- url = "https://imultimod.streamlit.app/"
- st.write(f"Texto a voz: [Enlace]({url})")
+    st.subheader("Sesión 2: Vectores y matrices")
+    image = Image.open("sesion2.png")
+    st.image(image, width=200)
+    st.write(
+        "Actividad enfocada en el uso de vectores y matrices mediante "
+        "una aplicación en Streamlit. Se agregó una nueva fruta "
+        "definiendo características como peso, diámetro y dulzor, "
+        "y se calculó la distancia entre sus características.")
+    url = "https://clase2fruta.streamlit.app/"
+    st.write(f"Aplicación: [Ver actividad]({url})")
+
 
  st.subheader("Reconocimiento de Objetos")
  image = Image.open('txt_to_audio.png')
