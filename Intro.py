@@ -38,35 +38,35 @@ col1, col2, col3 = st.columns(3)
 with col1:
     
     st.subheader("Sesión 2: Vectores y matrices")
-    image = Image.open("sesion2.png")
-    st.image(image, width=200)
+    image = Image.open("txt_to_audio2.png")
+    st.image(image, width=190)
     st.write(
         "Actividad enfocada en el uso de vectores y matrices mediante "
         "una aplicación en Streamlit. Se agregó una nueva fruta "
         "definiendo características como peso, diámetro y dulzor, "
-        "y se calculó la distancia entre sus características.")
+        "y se calculó la distancia entre sus características." )
     url = "https://clase2fruta.streamlit.app/"
     st.write(f"Aplicación: [Ver actividad]({url})")
     
     st.subheader("Sesión 3: Cálculo aplicado, gradiente")
-    image = Image.open("sesion3.png")
-    st.image(image, width=200)
+    image = Image.open("txt_to_audio.png")
+    st.image(image, width=190)
     st.write(
         "Actividad sobre derivadas, gradiente y descenso de gradiente. "
         "Se modificó la función objetivo de la aplicación y su "
         "gradiente para observar cómo estos conceptos permiten "
-        "encontrar mínimos mediante un proceso de optimización.")
+        "encontrar mínimos mediante un proceso de optimización." )
     url = "https://clase3tsul.streamlit.app/"
     st.write(f"Aplicación: [Ver actividad]({url})")
 
     st.subheader("Sesión 4: Lógica, Big-O y vectorización")
-    image = Image.open("sesion4.png")
-    st.image(image, width=200)
+    image = Image.open("OIG5.jpg")
+    st.image(image, width=190)
     st.write(
         "Actividad enfocada en la relación entre la lógica de "
         "programación, la complejidad algorítmica y la vectorización. "
         "Se resolvió un ejercicio práctico y se incorporaron los "
-        "resultados junto con el enlace de la aplicación.")
+        "resultados junto con el enlace de la aplicación." )
     url = "https://clase4tsul.streamlit.app/"
     st.write(f"Aplicación: [Ver actividad]({url})")
 
